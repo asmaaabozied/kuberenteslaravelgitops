@@ -1,0 +1,10 @@
+resources:
+  - retain-sc.yaml
+  - node-reader-clusterrole.yaml
+  - node-reader-binding.yaml
+ 
+
+
+
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
